@@ -6,6 +6,7 @@ use longport::{
     Config, QuoteContext, TradeContext,
 };
 
+mod sub;
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     // Load configuration from environment variables
